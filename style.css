@@ -1,0 +1,251 @@
+@media (min-width: 1024px) and (max-width: 2560px) {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(100, 97, 97);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.top {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  padding-right: 50px;
+  background-color: rgb(105, 105, 224);
+  margin: 0px auto;
+  border-radius: 18px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 1rem;
+}
+
+.body {
+  margin-top: 125px;
+  padding: 18px;
+}
+
+.intro {
+  text-align: center;
+  font-weight: 100;
+  font-size: 25px;
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+}
+
+.icons {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons {
+  gap: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.cover img {
+  border-radius: 16px;
+}
+
+.down {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  padding: 3px 10px;
+  margin-top: 15px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.clap {
+  padding: 100px;
+  margin: 0px auto;
+  background-color: rgb(142, 142, 245);
+  max-width: 800px;
+}
+
+.about-h p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bio {
+  margin-top: 10px;
+}
+
+.tags {
+  margin-top: 15px;
+}
+
+.last {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.login-body {
+  background: linear-gradient(
+    to right,
+    rgb(78, 78, 226),
+    rgba(56, 56, 199, 0.501)
+  );
+  width: 100%;
+  height: 100dvh;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  font-size: 25px;
+  font-weight: 1000;
+}
+.details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.length {
+  width: 500px;
+  padding: 8px;
+  border: none;
+}
+
+.beef {
+  padding: 5px;
+}
+
+#beef {
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(100, 97, 97);
+  color: white;
+  font-weight: 800;
+  border-radius: 8px;
+}
+
+.gone button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.gone-down button {
+  background-color: black;
+}
+
+button .gone-down a {
+  text-decoration: none;
+  color: white;
+}
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  header {
+    display: flex;
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .items .list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .items .list a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .cover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .gone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gone-down button{
+    background-color: black;
+    color: white;
+  }
+}

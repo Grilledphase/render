@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RENder! Login page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="login-body">
+    <p class="login">Login</p>
+
+    <form class="details" onsubmit="login(e)">
+      <div class="form">
+        <label id="beef" for="username"> Username:</label>
+        <input
+          class="beef"
+          type="text"
+          id="username"
+          placeholder="Username"
+          required
+          autocomplete="username"
+        />
+      </div>
+
+      <div class="form">
+        <label id="beef" for="password"> Password :</label>
+        <input
+          class="beef"
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+          autocomplete="current-password"
+        />
+      </div>
+
+      <div class="butt">
+        <button>Login</button>
+      </div>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
